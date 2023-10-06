@@ -1,0 +1,30 @@
+body{margin: 15px;background-color: rgb(4, 74, 87);
+    color: white;
+    font-family: sans-serif;
+}
+
+form{ margin-top: 5%;
+    margin-left: 20%;
+}
+button{height: 40px;
+    width: 200px;
+    color: rgb(3, 72, 82);
+    border-radius: 8px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#content{height: 300px;
+    width: 400px;
+}
+
+label{
+    margin-top: 20px;
+}
+
+.posts{ margin-left: 20%;
+
+}
+
+i {cursor: pointer;
+  }
