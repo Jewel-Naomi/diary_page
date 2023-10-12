@@ -8,32 +8,35 @@
     <title>Journaling</title>
 </head>
 <body>
-    <form id="form">
-        <label>Date:</label><br>
-        <input type="date" id="date" required><br>
-
-        <label>Title:</label><br>
-        <input type="text" id="title" required><br>
-
-        <label>Content:</label><br>
-        <textarea name="input" id="content" cols="30" rows="10"></textarea><br>
-        <div id="msg"></div>
-
-        <button type="submit" id="save">Save</button>
-    </form>
     
-    <div class="posts">
-        <h3>Your entries</h3>
-        <div id="posts">
-            <p>Sample entry</p>
-            <span class="options">
-                <i onClick="editPost(this)" class="fa-regular fa-pen-to-square" style="color: white;"></i>
-
-                <i onClick="deletePost(this)" class="fa-solid fa-trash" style="color: white;"></i><br></span>
+    <div class="container">
+        
+        <div id="navBar">
+            <a href="index.html">Home</a>
+            <a href="entries.html">Entries</a>
+            <a href="profile.html" class="profile"><i class="fa-regular fa-user"></i> Profile</a>
+            <input id="navSearch" type="text" placeholder="search your entries"><i class="fa-solid fa-magnifying-glass" style="color: rgb(4, 74, 87); margin-top: 10px; padding: 4px; border: solid 1pt rgb(10, 166, 190)"></i>
         </div>
-      </div>
+        
+        <form id="form">
+            <div class="left">
+                <label>Date:</label><br>
+                <input type="date" id="date" required><br>
+                
+                <label>Title:</label><br>
+                <input type="text" id="title" required><br>
+            </div>
 
-
+            <div class="right">
+                <label>Content:</label><br>
+                <textarea name="input" id="content" cols="30" rows="10"></textarea><br>
+                <div id="msg"></div>
+                
+                <button type="submit" id="save">Save</button>
+            </div>
+        </form>
+        
+        
     <!-- <script>
         document.getElementById('content').innerHTML="Hi Irene"; 
     </script> -->

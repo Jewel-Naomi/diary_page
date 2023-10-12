@@ -1,3 +1,4 @@
+
 let form = document.getElementById("form");
 let content = document.getElementById("content");
 let date = document.getElementById("date");
